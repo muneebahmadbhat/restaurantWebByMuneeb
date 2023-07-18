@@ -1,0 +1,156 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/*  header section */
+
+/*  Naavigation Bar */
+
+#navigation{
+    display: flexbox;
+    border: 2px solid black;
+    background: #797070;
+    width: 100vw;
+align-items: center;
+position:fixed;
+top: 0;
+}
+
+/* Navigation Bar Logo and image styling */
+.navbar img{
+    height: 59px;
+    border-radius: 50%;
+    
+}
+.navbar{
+    display: flex;
+    margin: 6px 10px;
+}
+
+/* Navigation Bar : List Styling */
+.navbar ul {
+display: flex;
+/* border: 2px solid red; */
+align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    padding: 12px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover Effect */
+#logo:hover{
+    background: rgb(195, 195, 135);
+    
+}
+
+
+.navbar ul li a:hover{
+    background: rgb(142, 128, 128);
+    color:black;
+    border-radius: 23px;
+}
+
+
+
+
+
+/*  searchbar */
+.search{
+    padding: 10px 23px;
+    margin: 10px 12px;
+    border-radius: 23px;
+    width: 40%;
+    text-align:center;
+}
+/* font awesome */
+#cart{
+    padding-left: 80px;
+ 
+}
+
+section{
+    
+    height: 540px;
+    width: 100vw;
+    border: 2px solid red;
+    background: url(/HTML/sale.avif);
+    justify-content: center;
+    padding-top: 70px;
+    color: rgb(237, 208, 208);
+}
+.head{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: 12px 23px;
+}
+section h2{
+    /* border: 2px solid black; */
+    margin: 12px 23px;
+}
+.editsales{
+    /* border: 2px solid yellowgreen; */
+    font-size: 25px;
+    
+}
+
+
+/* Footer Section */
+footer{
+    border: 2px solid black;
+    background: #797070;
+    height: 200px;
+    width: 1oovw;
+
+}
+.footer img{
+    /* border: 2px solid red; */
+    height: 50px;
+    margin: 10px 23px;
+    border-radius: 50%;
+}
+.footertext{
+/* border: 2px solid red; */
+position: absolute;
+margin-top: 20px;
+
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footdeco{
+    display: flex;
+    justify-content: center;
+}
+#footdeco a {
+    padding: 4px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.firstfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.lastfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black;  */
+}

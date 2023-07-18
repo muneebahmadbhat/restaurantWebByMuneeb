@@ -1,0 +1,260 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  header section */
+
+/*  Naavigation Bar */
+
+#navigation{
+    display: flexbox;
+    border: 2px solid black;
+    background: #797070;
+    width: 100vw;
+align-items: center;
+position:fixed;
+top: 0;
+}
+
+/* Navigation Bar Logo and image styling */
+.navbar img{
+    height: 59px;
+    border-radius: 50%;
+    
+}
+.navbar{
+    display: flex;
+    margin: 6px 10px;
+}
+
+/* Navigation Bar : List Styling */
+.navbar ul {
+display: flex;
+/* border: 2px solid red; */
+align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    padding: 12px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover Effect */
+#logo:hover{
+    background: rgb(195, 195, 135);
+    
+}
+
+
+.navbar ul li a:hover{
+    background: rgb(142, 128, 128);
+    color:black;
+    border-radius: 23px;
+}
+
+
+/*  searchbar */
+.search{
+    padding: 10px 23px;
+    margin: 10px 12px;
+    border-radius: 23px;
+    width: 40%;
+    text-align:center;
+}
+/* font awesome */
+#cart{
+    padding-left: 80px;
+ 
+}
+
+
+
+/* Body Section */
+
+section{
+    
+    height: 800px;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background:rgb(226, 226, 182);   
+    justify-content: center;
+    padding-top: 70px;
+}
+
+
+.aboutSec h2{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    width: 200px;
+}
+.aboutSec2 h2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00000094;
+    margin: 4px 23px;
+    padding: 0px 10px;
+    /* border: 2px solid black; */
+    width: 200px;
+}
+
+.mainAbout h1{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 200px;
+}
+
+.firstPara{
+    /* border: 2px solid red; */
+    width: 1200px;
+    padding: 12px 23px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.Para{
+    /* border: 2px solid red; */
+    width: 1200px;
+    padding: 5px 23px;
+}
+
+/*  Box CSS */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 100%);
+  }
+  
+  .card:hover .card-image img {
+    transform: scale(1.1);
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .card-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .card-content a {
+    display: inline-block;
+    background-color: purple;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .card-content a:hover {
+    background-color: #C0392B;
+  }
+  
+
+  /* Footer Section */
+footer{
+    border: 2px solid black;
+    background: #797070;
+    height: 200px;
+    width: 1oovw;
+
+}
+.footer img{
+    /* border: 2px solid red; */
+    height: 50px;
+    margin: 10px 23px;
+    border-radius: 50%;
+}
+.footertext{
+/* border: 2px solid red; */
+position: absolute;
+margin-top: 20px;
+
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footdeco{
+    display: flex;
+    justify-content: center;
+}
+#footdeco a {
+    padding: 4px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.firstfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.lastfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black;  */
+}

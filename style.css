@@ -1,0 +1,176 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  header section */
+
+/*  Naavigation Bar */
+
+#navigation{
+    display: flexbox;
+    border: 2px solid black;
+    background: #797070;
+    width: 100vw;
+align-items: center;
+position:fixed;
+top: 0;
+}
+
+/* Navigation Bar Logo and image styling */
+.navbar img{
+    height: 59px;
+    border-radius: 50%;
+    
+}
+.navbar{
+    display: flex;
+    margin: 6px 10px;
+}
+
+/* Navigation Bar : List Styling */
+.navbar ul {
+display: flex;
+/* border: 2px solid red; */
+align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    padding: 12px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover Effect */
+#logo:hover{
+    background: rgb(195, 195, 135);
+    
+}
+
+
+.navbar ul li a:hover{
+    background: rgb(142, 128, 128);
+    color:black;
+    border-radius: 23px;
+}
+.btn:hover{
+    background-color: rgb(201, 201, 169);
+color: black;
+}
+.footer a:hover{
+    color: #94ad78;
+    }
+#footdeco a:hover{
+    color:  #94ad78;
+    cursor: pointer;
+}
+
+/*  searchbar */
+.search{
+    padding: 10px 23px;
+    margin: 10px 12px;
+    border-radius: 23px;
+    width: 40%;
+    text-align:center;
+}
+/* font awesome */
+#cart{
+    padding-left: 80px;
+ 
+}
+
+/* body css */
+.body{
+    height: 430px;
+    width: 100vw;
+/* border: 2px solid red; */
+}
+.body::before{
+    content: "";
+    height: 82.5vh;
+    width: 100vw;
+    background:url(/HTML/bg.avif) no-repeat center;
+  background-size: 100% 100% ;
+    position: absolute;
+    top:-16px;
+    z-index: -1;
+}
+.paraEdit{
+    display: flex;
+    height: 200px;
+    width: 20%;
+    margin-top: 90px;
+    margin-left:40%;
+    padding: 12xp 23px;
+    border: 2px solid yellow;
+    font-weight:900;
+    background:transparent;
+    font-size:19px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+.btn{
+    /* border: 2px solid red; */
+    margin-top: 12px;
+    margin-left: 43%;
+    height: 27px;
+    width: 10%;
+    background: rosybrown;
+    color: white;    
+    border-radius: 23px;
+}
+
+/* Footer Section */
+footer{
+    border: 2px solid black;
+    background: #797070;
+    height: 200px;
+    width: 1oovw;
+
+}
+.footer img{
+    /* border: 2px solid red; */
+    height: 50px;
+    margin: 10px 23px;
+    border-radius: 50%;
+}
+.footertext{
+/* border: 2px solid red; */
+position: absolute;
+margin-top: 20px;
+
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footdeco{
+    display: flex;
+    justify-content: center;
+}
+#footdeco a {
+    padding: 4px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.firstfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.lastfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black;  */
+}

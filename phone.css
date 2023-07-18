@@ -1,0 +1,40 @@
+
+/* Navigation */
+
+.navbar {
+    display: flex;
+    margin: 6px 10px;
+    flex-direction: column;
+}
+
+.navbar ul li a {
+    padding: 12px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: red;
+}
+
+
+/*Search */
+.search{
+    padding: 10px 23px;
+        margin: 8px 12px;
+        border-radius: 23px;
+        width: 93%;
+        text-align: center;
+}
+
+
+/* Button */
+.btn{
+    margin-top: 12px;
+    margin-left: 43%;
+    height: 27px;
+    width: 22%;
+    background: rosybrown;
+    color: white;
+    border-radius: 23px;
+}

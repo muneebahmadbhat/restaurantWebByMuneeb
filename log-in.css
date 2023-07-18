@@ -1,0 +1,130 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+section{
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.logdes{
+    border: 2px solid black;
+   width: 400px;
+}
+
+.logdes h2{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin: 70px;
+    font-size:40px;
+    font-weight: bolder;
+}
+
+
+.logdes p{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: 10px 3px;
+    padding-right: 30px;
+}
+
+.logdes a {
+
+    /* border: 2px solid red; */
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 12px 23px;
+}
+
+#name{
+    border: 3px solid black;
+    margin: 12px 23px;
+    width: 300px;
+    padding: 12px 23px;
+}
+
+#password{
+    border: 3px solid black;
+    margin: 12px 23px;
+    width: 300px;
+    padding: 12px 23px;
+}
+
+.btn{
+    border: 3px solid black;
+    margin: 12px 23px;
+    width: 300px;
+    background: rgb(133, 218, 244);
+    font-weight: bold;
+    padding: 12px 23px;
+}
+
+
+
+
+
+
+
+
+
+/* Footer Section */
+footer{
+    border: 2px solid black;
+    background: #797070;
+    height: 200px;
+    width: 1oovw;
+
+}
+.footer img{
+    /* border: 2px solid red; */
+    height: 40px;
+    margin: 10px 23px;
+    border-radius: 50%;
+}
+.footertext{
+/* border: 2px solid red; */
+position: absolute;
+margin-top: 20px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footdeco{
+    display: flex;
+    justify-content: center;
+}
+#footdeco a {
+    padding: 4px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.firstfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.lastfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black;  */
+}

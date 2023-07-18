@@ -1,0 +1,229 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  header section */
+
+/*  Naavigation Bar */
+
+#navigation{
+    display: flexbox;
+    border: 2px solid black;
+    background: #797070;
+    width: 100vw;
+align-items: center;
+position:fixed;
+top: 0;
+}
+
+/* Navigation Bar Logo and image styling */
+.navbar img{
+    height: 59px;
+    border-radius: 50%;
+    
+}
+.navbar{
+    display: flex;
+    margin: 6px 10px;
+}
+
+/* Navigation Bar : List Styling */
+.navbar ul {
+display: flex;
+/* border: 2px solid red; */
+align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    padding: 12px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover Effect */
+#logo:hover{
+    background: rgb(195, 195, 135);
+    
+}
+
+
+.navbar ul li a:hover{
+    background: rgb(142, 128, 128);
+    color:black;
+    border-radius: 23px;
+}
+
+
+
+
+
+/*  searchbar */
+.search{
+    padding: 10px 23px;
+    margin: 10px 12px;
+    border-radius: 23px;
+    width: 40%;
+    text-align:center;
+}
+/* font awesome */
+#cart{
+    padding-left: 80px;
+ 
+}
+section{
+    
+    height: 1070px;
+    width: 100vw;
+    border: 2px solid red;
+    background: url(/HTML/intern.avif);
+    background-repeat: no-repeat;
+    /* background-size:  100% 100%; */
+    /* color: white; */
+    justify-content: center;
+    padding-top: 70px;
+}
+.edit{
+    display: inline-block;
+    border: 2px solid red;
+    margin-left:93px;
+    font-weight: 83px;
+    font-size: 43px;
+    padding: 63px;
+    border-radius: 50%;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(168, 80, 168);
+    height: 300px;
+
+}
+.edit1{
+    display:inline-block;
+    border: 2px solid red;
+    margin: 23px auto;
+    font-weight: 83px;
+    font-size: 30px;
+    padding: 63px;
+    color:white;
+    border-radius: 50%;
+    text-align: center;
+    width: 400px;
+    background-color: rgb(76, 51, 76);
+    height: 400px;
+
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin: 12px 23px;
+    font-size: 33px;
+    color: aliceblue;
+}
+.para{
+    padding: 12px  23px;
+    border: 2px solid red;
+    height: 255px;
+    background: cadetblue;
+    width: 500px;
+    margin-top: 12px;
+    margin-left: 30%;
+    /* margin: 12px 23px; */
+}
+.para p{
+    font-size: 24px;
+}
+.form{
+    /* border: 2px solid black; */
+    margin: 12px;
+}
+.form h3{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    font-size: 30px;
+    color:aliceblue ;
+}
+#name{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 12px auto;
+}
+
+.info{
+    border: 2px solid red;
+    padding: 12px 23px;
+    background: rgb(199, 233, 233);
+}
+#post{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 12px auto;
+}
+#btn{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 12px auto;
+}
+.btn{
+    padding: 12px 23px;
+    background: burlywood;
+}
+
+
+/* Footer Section */
+footer{
+    border: 2px solid black;
+    background: #797070;
+    height: 200px;
+    width: 1oovw;
+
+}
+.footer img{
+    /* border: 2px solid red; */
+    height: 50px;
+    margin: 10px 23px;
+    border-radius: 50%;
+}
+.footertext{
+/* border: 2px solid red; */
+position: absolute;
+margin-top: 20px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footdeco{
+    display: flex;
+    justify-content: center;
+}
+#footdeco a {
+    padding: 4px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.firstfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.lastfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black;  */
+}

@@ -1,0 +1,172 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  header section */
+
+/*  Naavigation Bar */
+
+#navigation{
+    display: flexbox;
+    border: 2px solid black;
+    background: #797070;
+    width: 100vw;
+align-items: center;
+position:fixed;
+top: 0;
+}
+
+/* Navigation Bar Logo and image styling */
+.navbar img{
+    height: 59px;
+    border-radius: 50%;
+    
+}
+.navbar{
+    display: flex;
+    margin: 6px 10px;
+}
+
+/* Navigation Bar : List Styling */
+.navbar ul {
+display: flex;
+/* border: 2px solid red; */
+align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    padding: 12px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover Effect */
+#logo:hover{
+    background: rgb(195, 195, 135);
+    
+}
+
+
+.navbar ul li a:hover{
+    background: rgb(142, 128, 128);
+    color:black;
+    border-radius: 23px;
+}
+
+
+
+
+
+/*  searchbar */
+.search{
+    padding: 10px 23px;
+    margin: 10px 12px;
+    border-radius: 23px;
+    width: 40%;
+    text-align:center;
+}
+/* font awesome */
+#cart{
+    padding-left: 80px;
+ 
+}
+section{
+    
+    height: 730px;
+    width: 100vw;
+    border: 2px solid red;
+    background-image: url(/HTML/offer.avif);
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    color: white;
+    justify-content: center;
+    padding-top: 70px;
+}
+section h2{
+    border: 2px solid red;
+    margin: 12px 23px;
+    padding: 43px;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    width: 200px;
+    background-color: greenyellow;
+    height: 200px;
+}
+section h3{
+    margin: 12px 23px;
+    padding: 5px 13px;
+    border: 2px solid red;
+    width: 50%;
+}
+section a{
+    /* border: 2px solid red; */
+    margin:0px 23px;
+    border-radius: 25px;
+    padding: 10px 33px;
+    background-color: greenyellow;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+}
+section a:hover{
+    color: #797070;
+    cursor: pointer;
+}
+
+/* Footer Section */
+footer{
+    border: 2px solid black;
+    background: #797070;
+    height: 200px;
+    width: 1oovw;
+
+}
+.footer img{
+    /* border: 2px solid red; */
+    height: 50px;
+    margin: 10px 23px;
+    border-radius: 50%;
+}
+.footertext{
+/* border: 2px solid red; */
+position: absolute;
+margin-top: 20px;
+
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footdeco{
+    display: flex;
+    justify-content: center;
+}
+#footdeco a {
+    padding: 4px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.firstfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.lastfour{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black;  */
+}
